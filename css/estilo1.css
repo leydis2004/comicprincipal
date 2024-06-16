@@ -1,0 +1,535 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@font-face {
+  font-family: 'KGRedHands';
+  src: url(../img/KGRedHands.ttf);
+}
+
+.tilulo {
+  font-family: 'KGRedHands';
+  font-size: 30px;
+  color: #074D57;
+
+}
+.oculto{
+  display: none;
+}
+
+
+.titulo {
+  font-family: 'KGRedHands';
+  font-size: 50px;
+  color: #02c9a8;
+  text-align: center;
+
+}
+
+.text-white {
+  font-family: 'KGRedHands';
+  color: #074D57;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+
+}
+
+.btn-outline-info:hover {
+  transform: scale(1.1);
+  background-color: #074D57;
+  color: #fff !important;
+}
+
+.btn-secondary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #6c757d;
+  --bs-btn-border-color: #6c757d;
+  /* --bs-btn-hover-color: #fff; */
+  --bs-btn-hover-bg: #F9BE03;
+  --bs-btn-hover-border-color: #606456;
+  --bs-btn-focus-shadow-rgb: 130, 138, 145;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #565e64;
+  --bs-btn-active-border-color: #51585e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #6c757d;
+  --bs-btn-disabled-border-color: #6c757d;
+  background-color: #ffffff;
+  color: black;
+
+}
+
+.btn-outline-info {
+  --bs-btn-color: #0dcaf0;
+  --bs-btn-border-color: #f0ecec;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #0dcaf0;
+  --bs-btn-hover-border-color: #0dcaf0;
+  --bs-btn-focus-shadow-rgb: 13, 202, 240;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #0dcaf0;
+  --bs-btn-active-border-color: #0dcaf0;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #0dcaf0;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #0dcaf0;
+  --bs-gradient: none;
+}
+
+
+.contenedor-imagen {
+  position: relative;
+}
+
+#clic {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  /*transform: translate(-50%, -50%);*/
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+.next1 {
+  width: 90px;
+}
+
+#clic2 {
+  position: absolute;
+  top: 20%;
+  left: 41%;
+  /*transform: translate(-50%, -50%);*/
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation2 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic3 {
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation3 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic3 {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation3 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic4 {
+  position: absolute;
+  top: 29%;
+  right: 15%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation4 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic5 {
+  position: absolute;
+  top: 1%;
+  right: 47%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation5 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic6 {
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation6 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic7 {
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation7 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic8 {
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation8 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic9 {
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation9 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic10 {
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation10 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic11 {
+  position: absolute;
+  top: 75%;
+  right: 19%;
+  z-index: 1;
+  width: 136px;
+}
+
+#animation11 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic12 {
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation12 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic13 {
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 1;
+  /* Asegura que el botón esté sobre la animación */
+  width: 136px;
+}
+
+#animation13 {
+  position: relative;
+  width: 100%;
+  /* Ajusta el ancho si es necesario */
+  height: auto;
+  /* Ajusta la altura si es necesario */
+}
+
+#clic:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic2:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic3:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic4:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic5:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic6:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic7:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic8:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic9:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic10:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic11:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic12:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+#clic13:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+/* Estilos del botón de signo de interrogación */
+.btn-signo-interrogacion {
+  color: white;
+  border: none;
+  /* border-radius: 50%; */
+  width: 100px;
+  /* height: 100px; */
+  /* font-size: 24px; */
+  cursor: pointer;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  margin-top: -60px;
+
+}
+
+
+
+
+.modal-content {
+  height: 750px;
+  width: 590px;
+ 
+
+}
+.modal-body{
+  background-image: url(../multimedia/img/intrucciones2.png);
+}
+
+.modal-header {
+  background-color: #277077;
+
+}
+
+.modal-footer {
+  background-color: #277077;
+
+}
+
+.btn-close {
+  background-color: #ffffff;
+}
+
+@media (max-width:750px) {
+  .next1 {
+    width: 55px;
+  }
+
+  .btn-signo-interrogacion {
+    width: 18%;
+    height: 15%;
+  }
+
+  .casita {
+    width: 65px;
+  }
+
+  #clic {
+    top: 75%;
+    left: 44%;
+    width: 65px;
+
+  }
+
+  #clic2 {
+    width: 90px;
+    margin-left: -13px;
+    margin-top: -10px;
+  }
+
+  #clic3 {
+    width: 75px;
+    margin-right: -15px;
+  }
+
+  #clic4 {
+    width: 90px;
+    margin-right: -19px;
+    margin-top: -20px;
+  }
+
+  #clic5 {
+    width: 65px;
+    margin-right: -2px;
+    margin-top: -1px;
+  }
+
+  #clic6 {
+    width: 65px;
+    margin-right: -2px;
+    margin-top: -1px;
+  }
+
+  #clic7 {
+    width: 65px;
+    margin-right: 25%;
+    margin-top: -15px;
+  }
+
+  #clic8 {
+    width: 65px;
+    margin-right: 16px;
+    top: 28%;
+  }
+
+  #clic9 {
+    width: 65px;
+    margin-right: 16px;
+    top: 28%;
+  }
+
+  #clic10 {
+    width: 65px;
+    margin-right: 25%;
+    top: 40%;
+  }
+
+  #clic11 {
+    width: 65px;
+    margin-right: -1%;
+    top: 210px;
+  }
+
+  #clic12 {
+    width: 65px;
+    margin-right: 25%;
+    top: 40%;
+  }
+
+  #clic13 {
+    width: 65px;
+    margin-right: 25%;
+    top: 40%;
+  }
+}
